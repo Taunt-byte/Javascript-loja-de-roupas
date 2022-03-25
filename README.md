@@ -1,12 +1,12 @@
-<h1>Ecommerce website</h1>
+# Website de compra e vendas de roupas
 
 Status: em desenvolvimento
 
-# Projeto de website de ecommerce
+# Sobre
 
-+ baseado em web sites de vendas de roupas
++ Baseado em web sites de vendas como amazon, magalu e outros.
 
-# Tecnologia usada no projeto
+# Tecnologia
 
 <table>
     <tr>
