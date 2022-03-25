@@ -1,0 +1,59 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* Conteudo da Navbar */
+
+.nav{
+    background-color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+.nav li {
+    float: left;
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+
+.nav li:last-child {
+    border-right: none;
+}
+
+.nav a {
+    display: block;
+    padding: 8px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+  
+.nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Muda a cor quando passa o botão em cima */
+
+.nav li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+}
+
+/* Container */
+
+.container{
+    background-color: red;   
+}
+.elemento-promo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
