@@ -3,10 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Ecommerce</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--CUSTOM CSS-->
         <link rel="stylesheet" href="css/styles.css">
+        <!--BOOTSTRAP CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
         <main>
@@ -23,40 +26,78 @@
             <br>
             <br>
             <!--Promoções do dia-->
-            <div id="promo" class="container">
-                <h1>Promoções do dia</h1>
-                <div class="elemento">
-                    <h1>Sapato alto</h1>
-                    <h1>Vestido vermelho</h1>
-                    <h1>Camisa Polo</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
                 </div>
-            </div>
-            <div id="camisa" class="container">
-                <div class="elemento-camisa">
-                    <h1>Camisa de varios tipos</h1>
-                    <h2>camisa vermelha</h2>
-                    <form>
-                        <input type="button" value="Comprar">
-                    </form>
-                      <p>3 produtos disponiveis</p>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--Produtos-->
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="elemento">
+                        <h1>Calça de varios tipos</h1>
+                        <h2>Calça vermelha</h2>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg" value="Calca">Compra</button>
+                        </form>
+                          <p>3 produtos disponiveis</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="elemento">
+                        <h1>Vestido de varios tipos</h1>
+                        <h2>Vestido Azul</h2>
+                        <form>
+                            <input type="button" value="Comprar">
+                        </form>
+                          <p>3 produtos disponiveis</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="elemento">
+                        <h1>Sapatos de varios tipos</h1>
+                        <h2>Sapato rosa</h2>
+                        <form>
+                            <input type="button" value="Comprar">
+                        </form>
+                          <p>3 produtos disponiveis</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="elemento">
+                        <h1>Camisa de varios tipos</h1>
+                        <h2>camisa vermelha</h2>
+                        <form>
+                            <input type="button" value="Comprar">
+                        </form>
+                          <p>3 produtos disponiveis</p>
+                    </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <div id="calca" class="container">
-                <div class="elemento-calca">
-                    <h1>Calça de varios tipos</h1>
-                </div>
-            </div>
-            <div id="vestido" class="container">
-                <div class="elemento-vestido">
-                    <h1>Vestido de varios tipos</h1>
-                </div>
-            </div>
-            <div id="sapatos" class="container">
-                <div class="elemento-sapato">
-                    <h1>sapatos de varios tipos</h1>
-                </div>
-            </div>
+              </div>
         </main>
+        <!--Custom JS-->
         <script src="js/main.js" async defer></script>
+        <!--BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
     </body>
 </html>

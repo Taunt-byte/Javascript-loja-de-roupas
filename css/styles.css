@@ -52,12 +52,9 @@
 /* Container */
 
 .container{
-    background-color: rgb(51, 51, 51);
     text-align: center;  
-    padding: 14px 16px;
-    color: rgb(255, 255, 255);
+    padding: 16px 16px;
 }
-
 .elemento h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(8, 10, 97);
