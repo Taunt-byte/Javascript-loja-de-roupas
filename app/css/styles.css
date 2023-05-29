@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o conteúdo da página */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Estilos para o footer */
+footer {
+  background-color: #138d75;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Conteúdo da Navbar */
+nav {
+  background-color: #138d75;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #138d75;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #0e634c;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 16px;
+}
+
+/* Estilos para os produtos */
+.elemento {
+  background-color: #f0f9f6;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.elemento h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.elemento h3 {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.elemento img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.elemento form {
+  margin-bottom: 10px;
+}
+
+.elemento button {
+  padding: 10px 20px;
+  background-color: #138d75;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.elemento button:hover {
+  background-color: #0e634c;
+}
+
+.elemento p {
+  font-size: 14px;
+  color: #888;
+}
